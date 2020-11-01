@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Andrea Kastro</title>
+  
+</head>
+
+<body>
+<h1>FORMULÀRIO</h1>
+<form method="get" action=".">
+    <label>Digite o seu nome:
+        <input name="nome" type="text" /></label><br />
+    <label>Digite o seu sobrenome:
+        <input name="sobrenome" type="text" /></label><br />
+    <label>Digite a sua idade:
+        <input name="idade" type="text" /></label><br />
+    <label>Cep (ex:12345-678):
+        <input name="cep" type="text" id="cep" value=""
+            onblur="pesquisacep(this.value);" /></label><br />
+    <label>Rua:
+        <input name="rua" type="text" id="rua"/></label><br />
+    <label>Bairro:
+        <input name="bairro" type="text" id="bairro" /></label><br />
+    <label>Cidade:
+        <input name="cidade" type="text" id="cidade"  /></label><br />
+    <label>Estado:
+        <input name="uf" type="text" id="uf" /></label><br />
+    <label>IBGE:
+        <input name="ibge" type="text" id="ibge" /></label><br />
+    <button>Enviar</button>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

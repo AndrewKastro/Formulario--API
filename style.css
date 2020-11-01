@@ -1,0 +1,28 @@
+body{
+    background-color: turquoise;
+    color: #887c7c;
+    font-family: cursive;
+    padding: 5em;
+    text-align: -webkit-center;
+}
+
+input{
+    border-radius: 25px;
+    inline-size: -webkit-fill-available;
+    border: bisque;
+    height: 35px;
+    margin-bottom: 25px;
+    outline: none;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+button{
+    border-radius: 25px;
+    width: 100px;
+    height: 36px;
+    border: none;
+    background-color: yellow;
+    margin-top: 15px;
+}
